@@ -19,7 +19,7 @@ module.exports = {
       patterns:[
         {
           from:'public',
-          globalOptions: {
+          globOptions: {
             ignore: ['**/index.html']
           },
         },
