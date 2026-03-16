@@ -1,14 +1,12 @@
 import {createElement} from '../render.js';
 
-function createBoardTemplate() {
-  return `
-    <ul class="trip-events__list"></ul>
-  `;
+function createNewTaskLoadingTemplate() {
+  return '<p class="trip-events__msg">Loading...</p>';
 }
 
-export default class BoardView { // PointView
+export default class NewTaskLoadingView {
   getTemplate() {
-    return createBoardTemplate();
+    return createNewTaskLoadingTemplate();
   }
 
   getElement() {
