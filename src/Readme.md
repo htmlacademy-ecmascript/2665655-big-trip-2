@@ -1,1 +1,1 @@
-Папка для скриптов.
+Readme for script
